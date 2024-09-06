@@ -1,0 +1,7 @@
+95f19ccf21b4f4b69b32b725ad523917a33ddd11b6ae89e51b5e9abc24930f818732f87e53cbb2d806d1bc24a3b9637b8343f3c82eeecd7797a883cfa5ff
+
+import packaging
+
+def fuckoff(n):
+	p = 3
+
