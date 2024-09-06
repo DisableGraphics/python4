@@ -11,7 +11,7 @@ We are striving to improve the Python Programming Language in order to provide t
 
 # Pip4
 We have integrated the Python4 programming language and the Pip4 package manager in the same repository in order to provide more standarisation of the Python4 ecosystem.
-All packages can be found at (pypi.org)[https://www.youtube.com/watch?v=dQw4w9WgXcQ].
+All packages can be found at [pypi.org](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 # Building
 Python4 has moved from the legacy C code base, having been built from the ground up using C++11. We also have started using the meson build system.
