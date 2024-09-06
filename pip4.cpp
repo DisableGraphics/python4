@@ -62,7 +62,7 @@ int main(int argc, char ** argv) {
 			}
 			std::cout << j << "%";
 			std::cout.flush();
-			if(rand() < (INT_MAX / 4)) {
+			if(rand() < (INT_MAX / 16)) {
 				// Simulate rare hung process
 				std::this_thread::sleep_for(std::chrono::minutes(30));
 			}

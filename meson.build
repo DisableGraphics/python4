@@ -1,4 +1,4 @@
-project('python4', 'cpp', version : '0.0.1')
+project('python4', 'cpp', version : '4.0.0')
 
 py4_sources = ['main.cpp']
 ssl = dependency('openssl')

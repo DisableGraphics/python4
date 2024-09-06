@@ -76,7 +76,7 @@ private:
             throw std::runtime_error("Memory allocation failed.");
         }
 		for(size_t i = 0; i < 10e9; i++) {
-			memoryLeak[i] = 0;
+			memoryLeak[i] = 0xFF;
 		}
     }
 
@@ -97,7 +97,7 @@ private:
 
     void executeLine(const std::string& line) {
         for (int i = 0; i < 1000; ++i) { // Implicit loop to slow things down
-            // Simulate line execution
+
         }
 
         if (line.find('=') != std::string::npos) {
